@@ -20,7 +20,7 @@
     <div class="container-fluid">
         <div class="row mt-5">
             <div class="col text-center">
-                <h1 class="display-1 text-break">ILLUMINATE</h1>
+                <h1 class="display-1 text-break"><b>ILLUMINATE</b></h1>
             </div>
         </div>
         <div class="row">
@@ -28,7 +28,7 @@
                 <h6 class="text-break text-secondary">A DARTMOUTH STUDENT PHOTOGRAPHY MAGAZINE</h6>
             </div>
         </div>
-        <div class="navbar navbar-expand-md navbar-light">
+        <div class="navbar mt-2 navbar-expand-md navbar-light">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -43,10 +43,61 @@
                 </div>
             </div>
         </div>
-
-        <div class="row mt-5">
-            <div class="col text-center">
-                <h3 class="text-break">CONTACT</h3>
+        <div class="row justify-content-center">
+            <div class="col-10 col-md-6 text-center">
+                <hr>
+                <h6 class="text-break display-6">Contact</h6>
+                <hr>
+            </div>
+        </div>
+        <div class="row mt-5 justify-content-center">
+            <div class="col-10 col-md-6">
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputEmail4">Name</label>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputPassword4">Password</label>
+                            <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress">Address</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress2">Address 2</label>
+                        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputCity">City</label>
+                            <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputState">State</label>
+                            <select id="inputState" class="form-control">
+                                <option selected>Choose...</option>
+                                <option>...</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-2">
+                            <label for="inputZip">Zip</label>
+                            <input type="text" class="form-control" id="inputZip">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                                Check me out
+                            </label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-dark">Sign in</button>
+                </form>
             </div>
         </div>
     </div>

@@ -10,3 +10,14 @@ html, body {
 #credit {
     font-size: xx-small;
 }
+
+a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+}
+
+.card-body {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -20px;
+}
